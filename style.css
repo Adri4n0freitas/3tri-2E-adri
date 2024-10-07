@@ -5,6 +5,31 @@
     --cor-cartao-frente: #144480;
     --color-cartao-verso: #00F4BF;
 }
-.body{
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
     font-family: Bai Jamjuree;
+    background-color: green;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    height: 2rem;
+}
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 0.5rem;
+}
+#container{
+    display: flex;
+}
+.cartao{
+    margin: 1rem;
+    background-color:rgb(68, 226, 68);
+    height: 20rem;
 }
