@@ -11,7 +11,7 @@
 }
 body{
     font-family: Bai Jamjuree;
-    background-image: url(//img/bg-desktop.webp);
+    background-image: url(bg-desktop.webp);
 
 }
 
@@ -37,8 +37,10 @@ footer p{
 }
 .cartao-conteudo{
     text-align: center;
-
-    
+    height: 100%;
+    background-color: var(--cor-cartao-frente);
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .cartao-conteudo h3{
@@ -49,7 +51,21 @@ footer p{
      border-radius: 0.6;
      font-size: 1vw;
      margin: 0.6rem;
-     right: 100%;
-     border: 1px solid var(--text-color);
+     border: solid 1px var(--text-color);
 }
-
+p{
+    color: rgb(255,255,255);
+}
+.cartao-conteudo-pergunta p{
+    font-weight: 500;
+}
+.cartao-conteudo-resposta{
+    color: var(--color-cartao-verso);
+    font-weight: 700;
+}
+.cartao-conteudo-pergunta, .cartao-conteudo-resposta{
+    margin: 0.5rem;
+}
+.cartao:haver .cartao-conteudo{
+    transform: rotateY(180deg);
+}
