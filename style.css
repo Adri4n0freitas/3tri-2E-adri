@@ -52,6 +52,7 @@ footer p{
      font-size: 1vw;
      margin: 0.6rem;
      border: solid 1px var(--text-color);
+     backface-visibility: hidden;
 }
 p{
     color: rgb(255,255,255);
@@ -65,7 +66,17 @@ p{
 }
 .cartao-conteudo-pergunta, .cartao-conteudo-resposta{
     margin: 0.5rem;
+    backface-visibility: hidden;
 }
-.cartao:haver .cartao-conteudo{
+.cartao:hover .cartao-conteudo{
     transform: rotateY(180deg);
 }
+.cartao-conteudo-resposta{
+    transform: rotateY(180deg);
+}
+.cartao-conteudo p{
+    margin-top: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
