@@ -15,5 +15,7 @@ function criaCartao(categoria,pergunta,resposta){
     `
     container.appendChild(article)
 }
-criaCartao("Biologia","Qual a função da Mitocondria?", "R:Produzir ATP (Energia)")
+criaCartao("Biologia","Qual a função da Mitocondria?", "R:Produzir ATP (Energia).")
+criaCartao("Matemática","Qual a Raiz Quadrada de 144?", "R:12.")
 criaCartao("Geral","Porque o Messi é melhor do que o CR7?","R:Porque ele tem 8 bolas de ouro.")
+criaCartao("Geral","Quem nasceu primeiro o ovo ou a galinha?","R:Galinha(ovo).")
